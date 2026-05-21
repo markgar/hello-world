@@ -1,2 +1,4 @@
-// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
+Console.Write("Enter something: ");
+string? input = Console.ReadLine();
+Console.WriteLine($"You said: {input}");
